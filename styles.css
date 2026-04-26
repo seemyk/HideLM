@@ -1,0 +1,10 @@
+/* No Featured NotebookLM */
+
+.featured-projects-container {
+    display: none !important;
+}
+
+/* Top nav: "Featured notebooks" pill (Angular Material toggle group) */
+mat-button-toggle:has(.editors-picks-toggle-label) {
+    display: none !important;
+}
