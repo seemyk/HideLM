@@ -1,6 +1,6 @@
 # Privacy Policy
 
-No Featured NotebookLM does not collect, store, or transmit personal data.
+HideLM does not collect, store, or transmit personal data.
 
 ## Data collection
 

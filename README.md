@@ -1,4 +1,6 @@
-# No Featured NotebookLM
+# HideLM
+
+**HIDE FEATURED NOTEBOOKS**
 
 Minimal Chrome/Chromium extension that hides NotebookLM’s **Featured Notebooks** UI:
 
@@ -19,7 +21,7 @@ Works on: `https://notebooklm.google.com/*`
 ## Update after changes
 
 1. Go to `chrome://extensions`.
-2. Click **Reload** on “No Featured NotebookLM”.
+2. Click **Reload** on “HideLM”.
 3. Hard refresh NotebookLM (`Cmd+Shift+R` on macOS / `Ctrl+Shift+R` on Windows/Linux).
 
 ## What it changes
@@ -55,6 +57,9 @@ This repo is already suitable for sharing as source.
 
 ### Chrome Web Store notes
 
-If you publish to the Chrome Web Store, you’ll typically want to add extension icons
-and include a clear privacy statement (see `PRIVACY.md`).
+If you publish to the Chrome Web Store, upload the same artwork as `Assets/store_icon.png`
+for the 128×128 listing icon, and include a clear privacy statement (see `PRIVACY.md`).
+Promotional images live in `Assets/` (`small_tile.png`, screenshots) — upload those in the
+developer dashboard only; they do not need to be inside the `.zip` you submit (the package
+only needs `manifest.json`, `styles.css`, and `Assets/store_icon.png`).
 
