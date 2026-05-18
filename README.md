@@ -9,7 +9,7 @@ Minimal Chrome/Chromium extension that hides NotebookLM’s **Featured Notebooks
 
 Works on: `https://notebooklm.google.com/*`
 
-## Install on Chrome Web Store
+## Install from Chrome Web Store
 https://chromewebstore.google.com/detail/hidelm/kmkpdkgdplhgngfhnopohaabnmignije
 
 ## Install (Developer mode)
