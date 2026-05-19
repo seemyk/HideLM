@@ -9,7 +9,7 @@ Minimal browser extension for **Chrome/Chromium** and **Firefox** that hides Not
 
 Works on: `https://notebooklm.google.com/*`
 
-**Firefox:** version **121 or newer** is required for the top-tab hide rule (CSS `:has()`). Older Firefox versions may still hide the dashboard section only.
+**Firefox:** version **140 or newer** on desktop (142+ on Android) is required for installation from AMO. The top-tab hide rule uses CSS `:has()` (supported since Firefox 121).
 
 ## Install from the Chrome Web Store
 
@@ -28,7 +28,7 @@ https://chromewebstore.google.com/detail/hidelm/kmkpdkgdplhgngfhnopohaabnmignije
 
 ### Firefox
 
-1. Open Firefox **121 or newer**.
+1. Open Firefox **140 or newer** (142+ on Android).
 2. Go to `about:debugging`.
 3. Click **This Firefox** (left sidebar).
 4. Click **Load Temporary Add-on…**.
@@ -68,7 +68,7 @@ Current selectors:
   - Confirm the extension is enabled.
   - Confirm you loaded the correct folder (the one containing `manifest.json`).
   - Confirm you’re on `https://notebooklm.google.com/…`
-  - On Firefox, confirm you’re on version 121+ if the top tab is still visible.
+  - On Firefox, confirm you’re on version 140+ (142+ on Android) and hard-refresh if the top tab is still visible.
 
 ## Support
 
