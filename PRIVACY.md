@@ -1,6 +1,6 @@
 # Privacy Policy
 
-HideLM does not collect, store, or transmit personal data.
+HideLM does not collect, store, or transmit personal data. This policy applies to the Chrome/Chromium and Firefox versions of the extension.
 
 ## Data collection
 
@@ -16,5 +16,4 @@ specific UI elements.
 
 ## Contact
 
-If you publish this extension and need a contact method, add it here.
-
+For questions about this extension: **seemyk1+info@gmail.com**
