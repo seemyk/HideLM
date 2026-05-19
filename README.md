@@ -85,7 +85,7 @@ If this extension saved you from daily dashboard clutter, consider offering me a
 
 ### Chrome Web Store
 
-HideLM is published on the [Chrome Web Store](https://chromewebstore.google.com/detail/hidelm/kmkpdkgdplhgngfhnopohaabnmignije). The upload package only needs `manifest.json`, `styles.css`, and `Assets/store_icon.png`. See [PRIVACY.md](PRIVACY.md) for the privacy statement.
+HideLM is published on the [Chrome Web Store](https://chromewebstore.google.com/detail/hidelm/kmkpdkgdplhgngfhnopohaabnmignije). The upload package needs `manifest.json`, `styles.css`, and icon PNGs under `Assets/`. See [PRIVACY.md](PRIVACY.md) for the privacy statement.
 
 ### Firefox / AMO notes
 
@@ -93,8 +93,8 @@ The same root folder works for Firefox. Privacy policy: [PRIVACY.md](PRIVACY.md)
 
 To publish on [addons.mozilla.org](https://addons.mozilla.org):
 
-1. Zip `manifest.json`, `styles.css`, and `Assets/store_icon.png` (exclude `.DS_Store` and docs).
+1. From the folder containing `manifest.json`, zip only the extension files (manifest, `styles.css`, `Assets/icon-16.png`, `Assets/icon-48.png`, `Assets/icon-128.png`) — files at the **root** of the zip, not inside a subfolder; exclude `.DS_Store` and `__MACOSX`.
 2. Sign the add-on ([web-ext sign](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) with AMO API credentials, or upload source in the developer hub).
-3. Submit the signed `.xpi`, listing copy, screenshots, privacy policy URL, and support email **seemyk1+info@gmail.com**.
+3. Submit the signed `.xpi` (or source zip), listing copy, screenshots, privacy policy URL, and support email **seemyk1+info@gmail.com**.
 
-`browser_specific_settings.gecko.id` is set to `seemyk1+info@gmail.com` — do not change it after the first public AMO release.
+`browser_specific_settings.gecko.id` is a fixed UUID in `manifest.json` — do not change it after the first public AMO release.
